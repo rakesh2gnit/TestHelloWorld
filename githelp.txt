@@ -1,0 +1,4 @@
+https://www.youtube.com/watch?v=J_Clau1bYco
+git config --global user.name "rakesh2gnit"
+git config --global user.email rakesh2gnit@gmail.com
+git clone (url)
