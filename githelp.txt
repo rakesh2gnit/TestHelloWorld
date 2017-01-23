@@ -1,4 +1,19 @@
 https://www.youtube.com/watch?v=J_Clau1bYco
+
+cd AndroidStudioProjects/
+
 git config --global user.name "rakesh2gnit"
 git config --global user.email rakesh2gnit@gmail.com
 git clone (url)
+
+cd TestHelloWorld/
+
+git add githelp.txt
+git status
+git commit -m "first commit" githelp.txt
+git push -u origin master
+
+
+if get error 403 then run
+https://youruser:password@github.com/user/repo.git
+and push
