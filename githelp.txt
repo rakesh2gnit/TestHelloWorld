@@ -17,3 +17,22 @@ git push -u origin master
 if get error 403 then run
 https://youruser:password@github.com/user/repo.git
 and push
+
+
+
+###For First time commit
+…or create a new repository on the command line
+
+echo "# MyGallery" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/rakesh2gnit/MyGallery.git
+git push -u origin master
+
+
+#################
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/rakesh2gnit/MyGallery.git
+git push -u origin master
